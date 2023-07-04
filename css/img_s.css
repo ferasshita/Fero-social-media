@@ -1,0 +1,24 @@
+	.blur{
+	filter: blur(4px);
+	}
+	.bright {
+		filter: brightness(180%);
+	}
+	.grey{
+		filter: grayscale(100%);
+	}
+	.hru{
+		filter: hue-rotate(180deg);
+	}
+	.inv{
+		filter: invert(100%);
+	}
+	.opac{
+		filter: opacity(50%);
+	}
+	.satu{
+		filter: saturate(7);
+	}
+	.sepia{
+		filter: sepia(100%);
+	}

@@ -1,0 +1,129 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #f1f1f1;
+}
+.fac {
+	text-align: center;
+	font-family: "Brush Script MT";
+}
+.te {
+	text-align: center;
+}
+.pt {
+    width: 50%;
+    padding: 12px 20px;
+	font-size: 17px;
+	font-family: Raleway;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+.bt{
+	background-color:#00CCFF;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#pc{
+	background-color:#00CCFF;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+    padding: 12px 20px;
+    margin: 8px 0;
+	font-size: 17px;
+	font-family: Raleway;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+select {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+.su {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+a {
+    color: #0099FF;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #4CAF50;
+}

@@ -1,0 +1,36 @@
+.oe {
+	font-family: old english text mt;
+}
+.nr{
+	font-family: Times New Roman;
+}
+.ar{
+	font-family:  Arial;
+}
+.bs{
+	font-family: Brush Script MT;
+}
+.per{
+	font-family: Perpetua;
+}
+.sh{
+	font-family: Showcard Gothic
+}
+.mon{
+	font-family: monospace;
+}
+.nc{
+	font-family: Courier New;
+}
+.ss{
+	font-family: sans-serif;
+}
+.v{
+	font-family: Verdana;
+}
+.g{
+	font-family: Georgia;
+}
+.cod{
+	background: linear-gradient(500deg,#8910d6,#b52d94);
+}

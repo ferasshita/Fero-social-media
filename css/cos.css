@@ -1,0 +1,43 @@
+.ta {
+border: none;
+width: 70%;
+height: 99px;
+}
+.fi {
+display: none;
+}
+.po {
+background-color: #0066FF;
+width: 100%;
+border: none;
+border-radius: 100px;
+}
+.po:hover {
+opacity: 0.9;
+}
+.le {
+display: block;
+width: 100%;
+text-align: center;
+border: #000000 solid;
+}
+.le:hover {
+background-color: #CCCCCC;
+}
+textarea {
+border: none;
+width: 70%;
+height: 300px;
+resize: none;
+}
+.co{
+	background-color: light-grey;
+	border: none;
+	width:10%;
+}
+.co:hover{
+	background-color: #CCCCCC;
+}
+input[type=radio] {
+	display: none;
+}
